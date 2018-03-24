@@ -22,7 +22,7 @@ node {
     }
 
     stage('Build Docker Image') {
-        buildImage = docker.build("hubtea/spring-cloud-eureka:${commitHash}")
+        buildImage = docker.build("janglee82/spring-cloud-eureka:${commitHash}")
     }
 
 

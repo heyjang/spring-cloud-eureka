@@ -46,7 +46,7 @@ spec:
       subdomain: eureka
       containers:
       - name: spring-cloud-eureka
-        image: hubtea/spring-cloud-eureka:latest
+        image: janglee82/spring-cloud-eureka:latest
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: dev

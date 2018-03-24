@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-LABEL maintainer="Leonardo Park"
+LABEL maintainer="JangHwan Lee"
 VOLUME /tmp
 ADD ./build/libs/app.jar app.jar
 EXPOSE 8761
